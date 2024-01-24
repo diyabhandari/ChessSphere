@@ -1,0 +1,66 @@
+/* default pieces from chess.com */
+
+#board-analysis-board {
+  background-image: url('https://www.chess.com/boards/green/150.png');
+}
+
+.coordinate-light {
+  fill: #779952;
+}
+
+.coordinate-dark {
+  fill: #edeed1;
+}
+
+.highlight {
+  background-color: #ffff00;
+}
+
+.pawn.white {
+  background-image: var(--pawn-white);
+  filter: brightness(90%);
+}
+
+.knight.white {
+  background-image: var(--knight-white);
+}
+
+.bishop.white {
+  background-image: var(--bishop-white);
+}
+
+.rook.white {
+  background-image: var(--rook-white);
+}
+
+.queen.white {
+  background-image: var(--queen-white);
+}
+
+.king.white {
+  background-image: var(--king-white);
+}
+
+.pawn.black {
+  background-image: var(--pawn-black);
+}
+
+.knight.black {
+  background-image: url('https://www.chess.com/chess-themes/pieces/neo/150/bn.png');
+}
+
+.bishop.black {
+  background-image: url('https://www.chess.com/chess-themes/pieces/neo/150/bb.png');
+}
+
+.rook.black {
+  background-image: url('https://www.chess.com/chess-themes/pieces/neo/150/br.png');
+}
+
+.queen.black {
+  background-image: url('https://www.chess.com/chess-themes/pieces/neo/150/bq.png');
+}
+
+.king.black {
+  background-image: url('https://www.chess.com/chess-themes/pieces/neo/150/bk.png');
+}
