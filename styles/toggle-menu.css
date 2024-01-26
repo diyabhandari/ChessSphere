@@ -1,3 +1,9 @@
+.toggle-button-container{
+  position: absolute;
+  top: 10px;
+  right: 0;
+  height: 30px;
+}
 .toggle-menu-off{
   display: none;
   position: absolute;
@@ -6,4 +12,18 @@
 }
 .toggle-menu-on{
   display: block; 
+}
+.toggle-button{
+  height: 100%;
+  width: 100%;
+  
+}
+.toggle-image{
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 715px) {
+  .toggle-button{
+    display: none;
+  }
 }

@@ -13,6 +13,8 @@
   --bishop-black: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/bb.png);
   --knight-black: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/bn.png);
   --rook-black: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/br.png);
+
+  --toggle-button: rgb(36,19,12);
 }
 .theme-city{
   --pawn-white: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/wp.png);
