@@ -1,4 +1,4 @@
-.theme-vintage{
+.vintage{
   --pawn-white: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/wp.png);
   --king-white: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/wk.png);
   --queen-white: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/wq.png);
@@ -14,7 +14,7 @@
   --knight-black: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/bn.png);
   --rook-black: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/br.png);
 }
-.theme-city{
+.city{
   --pawn-white: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/wp.png);
   --king-white: url();
   --queen-white: url();
@@ -29,7 +29,7 @@
   --knight-black: url();
   --rook-black: url();
 }
-.theme-sakura{
+.cupcake{
   --pawn-white: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/wp.png);
   --king-white: url();
   --queen-white: url();
@@ -44,7 +44,7 @@
   --knight-black: url();
   --rook-black: url();
 }
-.theme-classic{ /*regular black and white*/
+.classic{ /*regular black and white*/
   --pawn-white: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/wp.png);
   --king-white: url();
   --queen-white: url();
@@ -59,7 +59,7 @@
   --knight-black: url();
   --rook-black: url();
 }
-.theme-mars{
+.mars{
   --pawn-white: url(https://images.chesscomfiles.com/chess-themes/pieces/3d_staunton/150/wp.png);
   --king-white: url();
   --queen-white: url();

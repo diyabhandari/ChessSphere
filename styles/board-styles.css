@@ -41,7 +41,8 @@ piece {
   position: absolute;
   width: 70px;
   height: 70px;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;
   cursor: grab;
@@ -71,8 +72,8 @@ piece:active {
   }
   
   piece {
-    width: 9.5vw;
-    height: 9.5vw;
+    width: 8vw;
+    height: 8vw;
   }
 }
 @media screen and (max-height: 580px){

@@ -46,21 +46,21 @@
 }
 
 .knight.black {
-  background-image: url('https://www.chess.com/chess-themes/pieces/neo/150/bn.png');
+  background-image: var(--knight-black);
 }
 
 .bishop.black {
-  background-image: url('https://www.chess.com/chess-themes/pieces/neo/150/bb.png');
+  background-image: var(--bishop-black);
 }
 
 .rook.black {
-  background-image: url('https://www.chess.com/chess-themes/pieces/neo/150/br.png');
+  background-image: var(--rook-black);
 }
 
 .queen.black {
-  background-image: url('https://www.chess.com/chess-themes/pieces/neo/150/bq.png');
+  background-image: var(--queen-black);
 }
 
 .king.black {
-  background-image: url('https://www.chess.com/chess-themes/pieces/neo/150/bk.png');
+  background-image: var(--king-black);
 }
