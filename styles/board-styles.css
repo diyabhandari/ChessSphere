@@ -75,6 +75,28 @@ piece:active {
     height: 9.5vw;
   }
 }
+@media screen and (max-height: 580px){
+  square {
+    width: 9.5vw;
+    height: 9.5vw;
+  }
+  
+  piece {
+    width: 9.5vw;
+    height: 9.5vw;
+  }
+}
+@media screen and (max-height: 680px){
+  square {
+    width: 9.5vw;
+    height: 9.5vw;
+  }
+  
+  piece {
+    width: 9.5vw;
+    height: 9.5vw;
+  }
+}
 @media screen and (max-height: 400px){
   square {
     width: 7vw;
