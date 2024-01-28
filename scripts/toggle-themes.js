@@ -7,10 +7,9 @@ pageElement = document.querySelector('.page-container');
 themeOptionElement = document.querySelectorAll('.toggle-menu-option');
 if(localStorage.getItem('storedTheme')===null){
   localStorage.setItem('storedTheme','classic');
-  pageElement.classList.add(`${storedTheme}`);
+  pageElement.classList.add(`classic`);
 }
-//if theres a theme stored in ls alr from last time, it gets that instead
-
+//if theres a theme stored in ls alr from last time, it gets that instead //need to add this cuz it doesnt rmr
 themeOptionElement.forEach((theme)=>{
   theme.addEventListener('click',()=>{
     const storedTheme= localStorage.getItem('storedTheme');

@@ -47,19 +47,22 @@
   --rook-black: url();
 }
 .classic{ /*regular black and white*/
-  --pawn-white: url();
-  --king-white: url();
-  --queen-white: url();
-  --bishop-white: url();
-  --knight-white: url();
-  --rook-white: url();
-
-  --pawn-black: url();
-  --king-black: url();
-  --queen-black: url();
-  --bishop-black: url();
-  --knight-black: url();
-  --rook-black: url();
+  --pawn-white: url("../classic-images/classic-white-pawn.png");
+  --king-white: url("../classic-images/classic-white-king.png");
+  --queen-white: url("../classic-images/classic-white-queen.png");
+  --bishop-white: url("../classic-images/classic-white-bishop.png");
+  --knight-white: url("../classic-images/classic-white-knight.png");
+  --rook-white: url("../classic-images/classic-white-rook.png");
+  --pawn-black: url("../classic-images/classic-black-pawn.png");
+  --king-black: url("../classic-images/classic-black-king.png");
+  --queen-black: url("../classic-images/classic-black-queen.png");
+  --bishop-black: url("../classic-images/classic-black-bishop.png");
+  --knight-black: url("../classic-images/classic-black-knight.png");
+  --rook-black: url("../classic-images/classic-black-rook.png");
+  --light-square:  rgb(190, 184, 184);
+  --dark-square: rgb(104, 105, 105);
+  --board-border-colour: rgb(36,19,12);
+  --board-shadow-colour: rgb(46,29,24);
 }
 .mars{
   --pawn-white: url();

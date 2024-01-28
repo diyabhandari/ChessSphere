@@ -18,7 +18,6 @@
 
 .pawn.white {
   background-image: var(--pawn-white);
-  filter: brightness(90%);
 }
 
 .knight.white {
