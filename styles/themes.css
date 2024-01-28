@@ -17,19 +17,22 @@
   --board-shadow-colour: rgb(46,29,24);
 }
 .city{
-  --pawn-white: url();
-  --king-white: url();
-  --queen-white: url();
-  --bishop-white: url();
-  --knight-white: url();
-  --rook-white: url();
-
-  --pawn-black: url();
-  --king-black: url();
-  --queen-black: url();
-  --bishop-black: url();
-  --knight-black: url();
-  --rook-black: url();
+  --pawn-white: url("../city-images/city-white-pawn.png");
+  --king-white: url("../city-images/city-white-king.png");
+  --queen-white: url("../city-images/city-white-queen.png");
+  --bishop-white: url("../city-images/city-white-bishop.png");
+  --knight-white: url("../city-images/city-white-knight.png");
+  --rook-white: url("../city-images/city-white-rook.png");
+  --pawn-black: url("../city-images/city-black-pawn.png");
+  --king-black: url("../city-images/city-black-king.png");
+  --queen-black: url("../city-images/city-black-queen.png");
+  --bishop-black: url("../city-images/city-black-bishop.png");
+  --knight-black: url("../city-images/city-black-knight.png");
+  --rook-black: url("../city-images/city-black-rook.png");
+  --light-square:  rgb(190, 184, 184);
+  --dark-square: rgb(74, 68, 93);
+  --board-border-colour: rgb(36,19,12);
+  --board-shadow-colour: rgb(46,29,24);
 }
 .cupcake{
   --pawn-white: url("../cupcake-images/cupcake-white-pawn.png");
@@ -74,11 +77,14 @@
   --bishop-white: url();
   --knight-white: url();
   --rook-white: url();
-
   --pawn-black: url();
   --king-black: url();
   --queen-black: url();
   --bishop-black: url();
   --knight-black: url();
   --rook-black: url();
+  --light-square:  #e1d0c7;
+  --dark-square: rgba(128, 0, 0, 0.847);
+  --board-border-colour: rgb(3, 2, 1);
+  --board-shadow-colour: rgb(46,29,24);
 }
