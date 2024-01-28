@@ -54,37 +54,48 @@ piece:active {
 }
 
 /* write a css media query that would make the squares smaller on a mobile device */
-@media screen and (max-width: 660px) and (max-height: 680px){
+@media screen and (max-height: 550px){
   square {
-    width: 10vw;
-    height: 10vw;
+    width: 4vw;
+    height: 4vw;
   }
   
   piece {
-    width: 10vw;
-    height: 10vw;
+    width: 4vw;
+    height: 4vw;
+  }
+}
+@media screen and (max-width: 660px) and (max-height: 680px){
+  square {
+    width: 9.5vw;
+    height: 9.5vw;
+  }
+  
+  piece {
+    width: 9.5vw;
+    height: 9.5vw;
   }
 }
 @media screen and (max-width: 560px) and (max-height: 580px){
   square {
-    width: 9.5vw;
-    height: 9.5vw;
+    width: 8.5vw;
+    height: 8.5vw;
   }
   
   piece {
-    width: 8vw;
-    height: 8vw;
+    width: 8.5vw;
+    height: 8.5vw;
   }
 }
 @media screen and (max-height: 580px){
   square {
-    width: 9.5vw;
-    height: 9.5vw;
+    width: 8.5vw;
+    height: 8.5vw;
   }
   
   piece {
-    width: 9.5vw;
-    height: 9.5vw;
+    width: 8.5vw;
+    height: 8.5vw;
   }
 }
 @media screen and (max-height: 680px){
@@ -96,16 +107,5 @@ piece:active {
   piece {
     width: 9.5vw;
     height: 9.5vw;
-  }
-}
-@media screen and (max-height: 400px){
-  square {
-    width: 7vw;
-    height: 7vw;
-  }
-  
-  piece {
-    width: 7vw;
-    height: 7vw;
   }
 }
