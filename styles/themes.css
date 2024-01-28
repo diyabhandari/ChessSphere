@@ -32,19 +32,22 @@
   --rook-black: url();
 }
 .cupcake{
-  --pawn-white: url();
-  --king-white: url();
-  --queen-white: url();
-  --bishop-white: url();
-  --knight-white: url();
-  --rook-white: url();
-
-  --pawn-black: url();
-  --king-black: url();
-  --queen-black: url();
-  --bishop-black: url();
-  --knight-black: url();
-  --rook-black: url();
+  --pawn-white: url("../cupcake-images/cupcake-white-pawn.png");
+  --king-white: url("../cupcake-images/cupcake-white-king.png");
+  --queen-white: url("../cupcake-images/cupcake-white-queen.png");
+  --bishop-white: url("../cupcake-images/cupcake-white-bishop.png");
+  --knight-white: url("../cupcake-images/cupcake-white-knight.png");
+  --rook-white: url("../cupcake-images/cupcake-white-rook.png");
+  --pawn-black: url("../cupcake-images/cupcake-black-pawn.png");
+  --king-black: url("../cupcake-images/cupcake-black-king.png");
+  --queen-black: url("../cupcake-images/cupcake-black-queen.png");
+  --bishop-black: url("../cupcake-images/cupcake-black-bishop.png");
+  --knight-black: url("../cupcake-images/cupcake-black-knight.png");
+  --rook-black: url("../cupcake-images/cupcake-black-rook.png");
+  --light-square:  rgb(190, 184, 184);
+  --dark-square: rgb(93, 66, 83);
+  --board-border-colour: rgb(36,19,12);
+  --board-shadow-colour: rgb(46,29,24);
 }
 .classic{ /*regular black and white*/
   --pawn-white: url("../classic-images/classic-white-pawn.png");
