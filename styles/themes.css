@@ -71,20 +71,20 @@
   --board-shadow-colour: rgb(46,29,24);
 }
 .mars{
-  --pawn-white: url();
-  --king-white: url();
-  --queen-white: url();
-  --bishop-white: url();
-  --knight-white: url();
-  --rook-white: url();
-  --pawn-black: url();
-  --king-black: url();
-  --queen-black: url();
-  --bishop-black: url();
-  --knight-black: url();
-  --rook-black: url();
-  --light-square:  #e1d0c7;
-  --dark-square: rgba(128, 0, 0, 0.847);
+  --pawn-white: url("../mars-images/mars-white-pawn.png");
+  --king-white: url("../mars-images/mars-white-king.png");
+  --queen-white: url("../mars-images/mars-white-queen.png");
+  --bishop-white: url("../mars-images/mars-white-bishop.png");
+  --knight-white: url("../mars-images/mars-white-knight.png");
+  --rook-white: url("../mars-images/mars-white-rook.png");
+  --pawn-black: url("../mars-images/mars-black-pawn.png");
+  --king-black: url("../mars-images/mars-black-king.png");
+  --queen-black: url("../mars-images/mars-black-queen.png");
+  --bishop-black: url("../mars-images/mars-black-bishop.png");
+  --knight-black: url("../mars-images/mars-black-knight.png");
+  --rook-black: url("../mars-images/mars-black-rook.png");
+  --light-square:  #d2d2d2;
+  --dark-square: rgba(110, 82, 82, 0.847);
   --board-border-colour: rgb(3, 2, 1);
   --board-shadow-colour: rgb(46,29,24);
 }
